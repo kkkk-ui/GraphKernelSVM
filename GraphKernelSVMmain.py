@@ -13,7 +13,7 @@ myData.makeData(dataType=int(input("data type =>")))
 #-------------------
 # Learning and evaluation.
 # Number of repetitions of 10-CV.
-num_reps = 3
+num_reps = 10
 results = []
 
 # 1-WL kernel, number of iterations in [1:6].
