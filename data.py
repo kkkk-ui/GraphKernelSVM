@@ -252,7 +252,7 @@ class classification:
                     else:
                         continue
 
-                    # ラベルを持たない場合humanとする
+                    # ラベルを持たない場合unknownとする
                     try:
                         source_label = label_dict[source_id]['label']
                     except KeyError:
