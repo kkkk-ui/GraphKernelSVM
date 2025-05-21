@@ -56,9 +56,6 @@ def kernel_svm_evaluation(all_matrices, classes, num_repetitions=10,
                         best_c = c
                         best_gram_matrix = gram_matrix
                         
-            #時間短縮用
-            #break
-
             # Determine test accuracy.
             train = best_gram_matrix[train_index, :]
             train = train[:, train_index]
